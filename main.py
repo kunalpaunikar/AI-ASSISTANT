@@ -11,7 +11,7 @@ from pytube import Search
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 pygame.mixer.init()
-newsapi = "959e23c7725a412ba357b476954e6239"
+newsapi = "your news api key"
 music = {}
 
 def speak(text):
